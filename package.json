@@ -4,18 +4,11 @@
     "description": "TFS Visual Studio Code integration.",
     "version": "1.2.0",
     "author": {
-        "name": "Evgeniy Generalov",
-        "email": "e.generalov@gmail.com",
-        "url": "https://github.com/generalov"
+        "name": "Guillaume Perouffe",
+        "email": "g.perouffe@gmail.com",
+        "url": "https://github.com/gperouffe"
     },
-    "contributors": [
-        {
-            "name": "Aaron Stevens",
-            "email": "bheklilr2@gmail.com",
-            "url": "https://github.com/bheklilr/vscode-tfs"
-        }
-    ],
-    "publisher": "generalov",
+    "publisher": "gperouffe",
     "license": "SEE LICENSE IN LICENSE",
     "keywords": [
         "tfs",
@@ -26,12 +19,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/generalov/vscode-tfs.git"
+        "url": "git+https://github.com/gperouffe/vscode-tfs.git"
     },
     "bugs": {
-        "url": "https://github.com/generalov/vscode-tfs/issues"
+        "url": "https://github.com/gperouffe/vscode-tfs/issues"
     },
-    "homepage": "https://github.com/generalov/vscode-tfs#readme",
+    "homepage": "https://github.com/gperouffe/vscode-tfs#readme",
     "readmeFilename": "README.md",
     "main": "./lib/extension",
     "engines": {
@@ -43,12 +36,7 @@
         "fix": "prettier --write \"lib/**/*.js\" \"test/**/*.js\""
     },
     "activationEvents": [
-        "onCommand:vscode-tfs.add",
-        "onCommand:vscode-tfs.checkout",
-        "onCommand:vscode-tfs.delete",
-        "onCommand:vscode-tfs.undo",
-        "onCommand:vscode-tfs.openInBrowser",
-        "onCommand:vscode-tfs.menu"
+        "*"
     ],
     "contributes": {
         "commands": [

@@ -3,10 +3,10 @@
 **Visual Studio Code Team Foundation Server integration**
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![GitHub](https://img.shields.io/github/release/generalov/vscode-tfs.svg?style=flat-square)](https://github.com/generalov/vscode-tfs/releases)
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/generalov.vscode-tfs.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=generalov.vscode-tfs)
-[![David](https://img.shields.io/david/generalov/vscode-tfs.svg?style=flat-square)](https://david-dm.org/generalov/vscode-tfs?type=dev)
-[![David](https://img.shields.io/david/dev/generalov/vscode-tfs.svg?style=flat-square)](https://david-dm.org/generalov/vscode-tfs?type=dev)
+[![GitHub](https://img.shields.io/github/release/gperouffe/vscode-tfs.svg?style=flat-square)](https://github.com/gperouffe/vscode-tfs/releases)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/gperouffe.vscode-tfs.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=gperouffe.vscode-tfs)
+[![David](https://img.shields.io/david/gperouffe/vscode-tfs.svg?style=flat-square)](https://david-dm.org/gperouffe/vscode-tfs?type=dev)
+[![David](https://img.shields.io/david/dev/gperouffe/vscode-tfs.svg?style=flat-square)](https://david-dm.org/gperouffe/vscode-tfs?type=dev)
 
 ---
 
@@ -48,14 +48,14 @@ If you plan to use the `tf.exe` command line provided by the Visual Studio IDE, 
 
 ## Issues
 
-Please report any issue or comment [here](https://github.com/generalov/vscode-tfs/issues).
+Please report any issue or comment [here](https://github.com/gperouffe/vscode-tfs/issues).
 
 ## Contribute
 
 To be able to contribute to TFS development, you need to be at ease with **NodeJS** language and **Git** usage.
 
 ```sh
-git clone https://github.com/generalov/vscode-tfs.git
+git clone https://github.com/gperouffe/vscode-tfs.git
 cd vscode-tfs
 npm install
 npm test
@@ -72,6 +72,6 @@ This is a fork of [ivangabriele.vscode-tfs](https://github.com/ivangabriele/vsco
 
 ## Links
 
-- [TFS extension on Visual Studio Market Place](https://marketplace.visualstudio.com/items/generalov.vscode-tfs)
-- [TFS extension on Github](https://github.com/generalov/vscode-tfs)
-- [MIT Licence](https://github.com/generalov/vscode-tfs/blob/master/LICENCE)
+- [TFS extension on Visual Studio Market Place](https://marketplace.visualstudio.com/items/gperouffe.vscode-tfs)
+- [TFS extension on Github](https://github.com/gperouffe/vscode-tfs)
+- [MIT Licence](https://github.com/gperouffe/vscode-tfs/blob/master/LICENCE)
